@@ -87,7 +87,7 @@ You can modify these constants in the code:
 
 ## TROUBLESHOOTING
 
-- **Proxy Issues**: Check your proxy format in proxies.txt
+- **Proxy Issues**: Check your proxy format in `config/proxy_list.js`
 - **Wallet Access**: Ensure your mnemonic phrases are correctly formatted
 - **Transaction Failures**: Check your wallet has sufficient SUI for gas fees
 - **Blob Upload Failures**: The script will automatically retry uploads
