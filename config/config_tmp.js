@@ -1,5 +1,5 @@
 export const Config = {
-  SUI_RPC_URL: process.env.SUI_RPC_URL || 'https://fullnode.testnet.sui.io:443',
+  SUI_RPC_URL: "https://sui-testnet.mystenlabs.com" || 'https://fullnode.testnet.sui.io:443',
   DEFAULT_IMAGE_URL: 'https://picsum.photos/800/600',
   PACKAGE_ID: '0x4cb081457b1e098d566a277f605ba48410e26e66eaab5b3be4f6c560e9501800',
   PUBLISHER_URLS: [
