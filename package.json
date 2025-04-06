@@ -1,0 +1,32 @@
+{
+  "name": "sui-allowlist-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A bot for managing SUI allowlists",
+  "main": "index.js",
+  "scripts": {
+    "start": "node scripts/start.js",
+    "setup": "node scripts/setup.js",
+    "dev": "node app/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "javascript-obfuscator app --output dist --config build-config.json"
+  },
+  "keywords": [
+    "sui-wallet",
+    "testnet",
+    "allowlist",
+    "seal-sui"
+  ],
+  "author": "Nofan Rambe",
+  "license": "ISC",
+  "dependencies": {
+    "@mysten/sui.js": "^0.50.1",
+    "axios": "^1.6.5",
+    "bs58": "^6.0.0",
+    "dotenv": "^16.3.1",
+    "https-proxy-agent": "^7.0.6",
+    "mime-types": "^3.0.1",
+    "sharp": "^0.34.0",
+    "socks-proxy-agent": "^8.0.5"
+  },
+}
